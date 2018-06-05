@@ -196,21 +196,65 @@
                     <!-- Icons and Buttons in Nav -->
                     <h3>Icons and Buttons in Nav</h3>
                     <nav>
-                        <div class="nav-wrapper black"><a href="#" class="brand-logo right">Logo</a>
-                            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                                <li><i class="material-icons">search</i></li>
+                        <div class="nav-wrapper black">
+                            <a href="#" class="brand-logo right">Logo</a>
+                            <ul class="left hide-on-med-and-down">
                                 <li>
-                                    <i class="material-icons left">refresh</i> Link with left icon
+                                    <a href="#"><i class="material-icons left">refresh</i>
+                                    Link with left-icon</a>
                                 </li>
-                                <li><i class="waves-effect waves-light btn">Button</i></li>
+                                <li>
+                                    <a href="#">
+                                        <a href="#" class="waves-effect waves-light btn">button</a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <br>
+                    <br>
+                    <!-- Searchbar -->
+                    <h3>Searchbar</h3>
+                    <nav>
+                        <div class="nav-wrapper">
+                            <form action="">
+                                <div class="input-field">
+                                    <input type="search" id="search">
+                                    <label for="search" class="lable-icon">
+                                        <i class="material-icons">search</i>
+                                    </label>
+                                    <i class="material-icons">close</i>
+                                </div>
+                            </form>
+                        </div>
+                    </nav>
+                    <br>
+                    <br>
+                    <!-- Mobile Collapse -->
+                    <h3>Mobile Collaps</h3>
+                    <nav>
+                        <div class="nav-wrapper blue">
+                            <a href="#!" class='brand-logo'>Logo</a>
+                            <a href="#" data-target='mobile-collapse' class="sidenav-trigger">
+                                <i class="material-icons">menu</i>
+                            </a>
+                            <ul class='right hide-on-med-and-down'>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Services</a></li>
+                            </ul>
+                            <ul class='sidenav' id='mobile-collapse'>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Services</a></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
+                <!-- col -->
             </div>
             <!-- row -->
         </div>
-        <!-- col -->
         <!-- container -->
     </main>
     <!-- Main -->
