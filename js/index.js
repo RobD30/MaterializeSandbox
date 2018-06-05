@@ -3,4 +3,5 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.FloatingActionButton.init(fab, {
     	direction: 'left'
     });
+    $(".dropdown-trigger").dropdown();
   });
