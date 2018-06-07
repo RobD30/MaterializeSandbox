@@ -8,3 +8,4 @@
 # NOTES
 
 * Sidebar Nav opens on the left by default. You can open on the right with some changes.
+* Set up some fun collections and list. Also figured out how to make siblings in an element with emment.
