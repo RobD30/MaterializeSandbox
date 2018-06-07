@@ -3,6 +3,7 @@
 * Got to floating buttons aprox +12:30
 * Got to Effects, aprox +22:30
 * Worked with Images now onto nav, aprox +26:00
+* Finished Navbars, aprox +33:40
 
 # NOTES
 
