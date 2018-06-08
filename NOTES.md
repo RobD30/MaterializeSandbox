@@ -12,3 +12,5 @@
 * Set up some fun collections and list. Also figured out how to make siblings in an element with emment.
 
 Up next is the cards which should be interesting. This is a good crash course but none of the structure is right lol
+
+* Cards are pretty useful now in everying but I like the chips you can use and have the fab button in it.
