@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems);
+	// Init Carousel
+    var caro = document.querySelectorAll('.carousel');
+    var caroInst = M.Carousel.init(caro);
+    // Init Collapsible
+    var coll = document.querySelectorAll('.collapsible');
+    var collInst = M.Collapsible.init(coll);
+
 });
